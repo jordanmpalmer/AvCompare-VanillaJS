@@ -1,0 +1,90 @@
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+.header-footer{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.max-width{
+    width: 100vw;
+    max-width: 1500px;
+}
+
+#compare-icon{
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+    height: 6rem;
+    left: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+#nav-ul{
+    list-style-type: none;
+    display: flex; 
+    align-items: center;
+    margin: 0;
+    padding-right: 40px;
+}
+
+#active-menu{
+    border-bottom: 2px solid hsl(315, 100%, 28%);
+}
+
+.nav-button{
+    cursor: pointer;
+    margin: 5px 10px;
+    padding-bottom: 0.25rem;
+}
+
+.nav-button:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+
+.nav-link{
+    text-decoration: none;
+    color: hsl(0, 0%, 25%);
+}
+
+hr{
+    margin: 10px 150px;
+}
+
+body{
+    background-color: hsl(0, 0%, 99%);
+    margin: 0;
+}
+
+.body-container{
+    margin: 0 auto;
+    background-color: blue;
+}
+
+#hero-image{
+    width: 100%;
+}
+
+footer{
+    font-size: 1.5em;
+    margin: 0 auto;
+    height: 150px;
+    background-color: hsl(0,0,95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
